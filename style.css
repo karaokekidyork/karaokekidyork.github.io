@@ -1,0 +1,109 @@
+p.MainContainer {
+
+    justify-content: center;
+    flex:1;
+    margin: 7px;
+
+
+}
+
+p.rowViewContainer {
+    font-size: 17px;
+    padding: 10px;
+}
+
+p.TextInputStyleClass {
+
+    text-align: center;
+    height: 40px;
+    border-width: 1px;
+    border-color: #ff0000;
+    border-radius: 7px ;
+    background-color : #FFFFFF;
+
+}
+
+p.mainStyle {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p.backgroundImage {
+    flex: 1;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/*p.button {
+borderRadius: 10,  //changes the rounded edges
+                     padding: 10, //changes height/width around text of button
+                                                   marginBottom: 5, //marin under button
+                                                                      shadowColor: #303838,
+shadowOffset: { width: 0, height: 5 }, // shadow stylings unessary since opacity is set to 0
+shadowRadius: 10,
+shadowOpacity: 0, // makes shadow invisible.. mainly affects iphone not androic
+},*/
+
+p.text {
+    text-align: center;
+    color: white;
+
+
+}
+
+p.bigText {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+
+}
+
+p.midText {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+
+}
+
+p.blackText {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+p.bigTextWhite {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+
+}
+
+p.midTextWhite {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+/*p.bottomBanner {
+    position: "absolute";
+    bottom: 0;
+},*/
+
+p.container {
+    flex: 1;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+

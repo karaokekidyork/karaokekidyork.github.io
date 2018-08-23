@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Karaoke Kid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<p>Our music list</p>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<p id="demo"> </p>
+
+<script>
+  fetch('https://raw.githubusercontent.com/asfopoo/Kareoke-Kid-/master/list.txt')
+    .then((response) => response.json())
+    .then((responseJson) => {
+      console.log(responseJson[1].id, responseJson[1].song);
+      let obj = responseJson;
+
+      let text = "<ul>"
+
+      for (let i = 0; i < obj.length; i++) {
+        text += "<li>" + obj[i].song + "</li>";
+
+      }
+      text += "</ul>";
+      document.getElementById("demo").innerHTML = text;
+    })
+</script>
+
+</body>
+</html>

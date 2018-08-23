@@ -1,1 +1,1 @@
-# karaokeWeb
+# Kareoke-Kid hosted website
