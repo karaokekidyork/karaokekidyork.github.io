@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/asfopoo/karaokeWeb/issues"
   },
-  "homepage": "https://github.com/asfopoo/karaokeWeb#readme"
+  "homepage": "https://github.com/asfopoo/karaokeWeb#readme",
+  "dependencies": {
+    "clusterize.js": "^0.18.1"
+  }
 }
