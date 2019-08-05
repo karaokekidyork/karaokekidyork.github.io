@@ -144,7 +144,6 @@ hr {
 #menu {
 	float: right;
 	height: 80px;
-	table-layout: fixed;
 }
 
 #menu ul {
@@ -152,18 +151,15 @@ hr {
 	padding: 0px;
 	list-style: none;
 	line-height: normal;
-	table-layout: fixed;
 }
 
 #menu li {
 	float: left;
 	margin-right: 1px;
-	table-layout: fixed;
 }
 
 #menu a {
 	display: block;
-	table-layout: fixed;
 	height: 80px;
 	padding: 0px 30px;
 	line-height: 80px;
