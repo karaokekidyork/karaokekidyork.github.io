@@ -116,9 +116,10 @@ p.container {
 
 #loading-image {
     position: absolute;
-    top: 100px;
-    left: 240px;
+    top: 35%;
+    left: 38%;
     z-index: 100;
+    background-color: #fff;
 }
 .loader,
 .loader:after {
