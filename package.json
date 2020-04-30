@@ -19,6 +19,6 @@
   "homepage": "https://github.com/asfopoo/karaokeWeb#readme",
   "dependencies": {
     "clusterize.js": "^0.18.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
